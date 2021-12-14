@@ -1,0 +1,1 @@
+delete from counts where date_time > '2020-10-10 10:10:10';
