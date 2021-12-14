@@ -17,14 +17,6 @@ create table counts (
     foreign key (source_pi_id) references pi (pi_id)
 );
 
-create table mac_addr (
-    mac_key varchar(100) primary key,
-    mac varchar(17) not null,
-    count_id int,
-    foreign key (count_id) references counts (count_id)
-);
-
-
 
 create view avg_counts as
 select source_pi_id, avg(device_count)

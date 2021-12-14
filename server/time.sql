@@ -1,4 +1,5 @@
 -- Hourly Average for last 24 hours
+-- NOTE: This is a temporary solution just to demo the data for the dashboard.
 
 create view all_campus_today_avg as
 
