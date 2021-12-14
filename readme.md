@@ -10,7 +10,6 @@ The raspberry pi zero’s bluetooth scanning functionally makes this possible by
 
 
 ## Server Side
-<hr>
 
 Code located in `/server`
 
@@ -70,7 +69,6 @@ POSTing is only designed to be done from the Pi's.
 <br>
 
 ## Pi Side
-<hr>
 
 All the code that runs in the Raspberry Pi's is stored in `/pi`
 
