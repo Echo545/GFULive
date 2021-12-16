@@ -52,10 +52,6 @@ POSTing is only designed to be done from the Pi's.
 
 #### IP Addresses:
 
-* GET `api/ip`
-  * PARAMETERS: `id: {ID}`
-  * RETURNS: The IP addresses for the Pi requested, or all Pi ID's with their IP addresses if no ID is specified.
-
 * POST `api/ip`
   * PARAMETERS: `source_pi_id: {ID}` , `IP: {IP ADDRESS}`
   * RETURNS: Nothing is successful, or an error if something went wrong.
